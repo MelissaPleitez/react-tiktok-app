@@ -1,0 +1,25 @@
+.container-tiktok{
+    width: 549px;
+    height: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.tiktok-views{
+    min-width: 540px;
+    min-height: 960px;
+
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s ease-in-out;
+}
+
+.VideoTiktok{
+    width: 540px;
+    height: 960px;
+    position: relative;
+}
+
+.effect{
+    box-shadow: 1px 3px 5px grey;
+}
